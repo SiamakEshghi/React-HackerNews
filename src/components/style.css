@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 117, 13);
+    height: 50px;
+}
+.logo {
+    max-width: 40px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.desc {
+    margin-right: 20px;
+}
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    max-width: 100%;
+    height: auto;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn {
+    margin-right: 10px;
+    background-color: transparent;
+    border-width: 0px;
+}

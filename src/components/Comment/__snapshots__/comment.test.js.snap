@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment snapshot test 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Comment)>
+    <Comment
+      commentList={
+        Array [
+          Object {
+            "id": 1,
+            "text": "text1",
+          },
+          Object {
+            "id": 2,
+            "text": "text2",
+          },
+        ]
+      }
+      dispatch={[Function]}
+    >
+      <div
+        className="container"
+      >
+        <h3>
+          Comments
+        </h3>
+        <div
+          className="list"
+        >
+          <h5
+            key="1"
+          >
+            * text1
+          </h5>
+          <h5
+            key="2"
+          >
+            * text2
+          </h5>
+        </div>
+      </div>
+    </Comment>
+  </Connect(Comment)>
+</Provider>
+`;

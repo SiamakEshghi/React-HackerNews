@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ahould render correctly 1`] = `
+<Fragment>
+  <Component />
+</Fragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner snapshot test 1`] = `
+<Loading
+  color="#4A170C"
+  delay={0}
+  height={64}
+  type="spokes"
+  width={64}
+/>
+`;

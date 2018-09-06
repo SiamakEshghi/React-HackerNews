@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header snapshot test 1`] = `
+<div
+  className="header"
+>
+  <img
+    className="logo"
+    src="logo.png"
+  />
+  <h1>
+    TOP NEWS WEBSITE
+  </h1>
+  <h5
+    className="desc"
+  >
+    React App
+  </h5>
+</div>
+`;
